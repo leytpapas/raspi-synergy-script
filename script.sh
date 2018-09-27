@@ -24,7 +24,7 @@ mkdir -p ~/.config/autostart
 
 out="[Desktop Entry]
 Name=Synergy Client
-Exec=/usr/local/bin/synergy-core $str
+Exec=/usr/local/bin/synergy-core --client $str
 Type=application"
 
 echo "$out" > ~/.config/autostart/synergy.desktop
